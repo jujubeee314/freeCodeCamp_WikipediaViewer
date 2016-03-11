@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>freeCodeCamp Local Weather</title>
+    <title>freeCodeCamp Wikipedia API</title>
 
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -16,7 +16,7 @@
   <body>
 
     <div class="container">
-      <div class="wikipediaApp vertical-center">
+      <div id="wikiAppContainer" class="wikipediaApp vertical-center">
         <h1 class="text-center">Juju Wikipedia Viewer</h1>
         <h3 class="text-center"><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" id="randomArticle">Click for random article</a></h3>
         <div class="row">
@@ -24,14 +24,16 @@
             <input type="search" class="form-control" id="searchArticle" name="name" value="">
           </div>
           <div class="col-sm-2">
-            <span class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></span>
+            <span class="btn btn-default glyphicon glyphicon-search" id="searchbtn" aria-hidden="true"></span>
           </div>
         </div>
 
       </div>
 
       <div class="results">
+        <ul class="ulresults">
 
+        </ul>
       </div>
 
     </div>
