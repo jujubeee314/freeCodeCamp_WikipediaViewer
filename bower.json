@@ -1,0 +1,24 @@
+{
+  "name": "freeCodeCamp_WikipediaViewer",
+  "homepage": "https://github.com/jujubeee314/freeCodeCamp_WikipediaViewer",
+  "authors": [
+    "Justin Mendoza <mendoj@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6",
+    "angular-resource": "^1.5.6",
+    "angular-animate": "^1.5.6"
+  }
+}

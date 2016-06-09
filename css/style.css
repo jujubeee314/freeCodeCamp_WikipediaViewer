@@ -9,18 +9,30 @@ html, body {
   height:100%;
 }
 
-.vertical-center {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.wikipediaApp {
+.wikipediaSearch.no-vertical-center {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.wikipediaSearch {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: top 0.5s, transform 0.5s;
+}
+
 #randomArticle {
   color: white;
+}
+
+.sample-show-hide {
+  transition: all linear 0.5s;
+}
+
+.sample-show-hide.ng-hide {
+  opacity: 0;
 }
